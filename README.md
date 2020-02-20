@@ -1,10 +1,10 @@
 # Nikto
 
-## Build
+## Build
 
 docker build -t jeremygarigliet/nikto .
 
-## Run
+## Run
 
 docker run -ti --rm -v $(pwd)/report/:/report/jeremygarigliet/nikto -host `<url>` [`<options>`]
 
